@@ -10,7 +10,7 @@ class Cola:
     def __init__(self,tipo):
        self.__cola=list()
        self.tipo=tipo
-       
+
        
     def estaVacia(self):
         
@@ -39,6 +39,8 @@ class Cola:
             
     def __str__(self):
         return str(self.__cola)
+
+        
     
     
 cola=Cola(int)
